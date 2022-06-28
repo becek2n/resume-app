@@ -1,0 +1,17 @@
+D:\Djanuar\Source Code\Resume\Resume.DAO\obj\Debug\net5.0\Resume.DAO.csproj.AssemblyReference.cache
+D:\Djanuar\Source Code\Resume\Resume.DAO\obj\Debug\net5.0\Resume.DAO.GeneratedMSBuildEditorConfig.editorconfig
+D:\Djanuar\Source Code\Resume\Resume.DAO\obj\Debug\net5.0\Resume.DAO.AssemblyInfoInputs.cache
+D:\Djanuar\Source Code\Resume\Resume.DAO\obj\Debug\net5.0\Resume.DAO.AssemblyInfo.cs
+D:\Djanuar\Source Code\Resume\Resume.DAO\obj\Debug\net5.0\Resume.DAO.csproj.CoreCompileInputs.cache
+D:\Djanuar\Source Code\Resume\Resume.DAO\bin\Debug\net5.0\Resume.DAO.deps.json
+D:\Djanuar\Source Code\Resume\Resume.DAO\bin\Debug\net5.0\Resume.DAO.dll
+D:\Djanuar\Source Code\Resume\Resume.DAO\bin\Debug\net5.0\ref\Resume.DAO.dll
+D:\Djanuar\Source Code\Resume\Resume.DAO\bin\Debug\net5.0\Resume.DAO.pdb
+D:\Djanuar\Source Code\Resume\Resume.DAO\bin\Debug\net5.0\Resume.DTO.dll
+D:\Djanuar\Source Code\Resume\Resume.DAO\bin\Debug\net5.0\Resume.Repositories.dll
+D:\Djanuar\Source Code\Resume\Resume.DAO\bin\Debug\net5.0\Resume.DTO.pdb
+D:\Djanuar\Source Code\Resume\Resume.DAO\bin\Debug\net5.0\Resume.Repositories.pdb
+D:\Djanuar\Source Code\Resume\Resume.DAO\obj\Debug\net5.0\Resume.DAO.csproj.CopyComplete
+D:\Djanuar\Source Code\Resume\Resume.DAO\obj\Debug\net5.0\Resume.DAO.dll
+D:\Djanuar\Source Code\Resume\Resume.DAO\obj\Debug\net5.0\ref\Resume.DAO.dll
+D:\Djanuar\Source Code\Resume\Resume.DAO\obj\Debug\net5.0\Resume.DAO.pdb

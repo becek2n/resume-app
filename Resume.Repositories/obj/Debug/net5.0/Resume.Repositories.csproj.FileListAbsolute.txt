@@ -1,0 +1,15 @@
+D:\Djanuar\Source Code\Resume\Resume.Repositories\obj\Debug\net5.0\Resume.Repositories.csproj.AssemblyReference.cache
+D:\Djanuar\Source Code\Resume\Resume.Repositories\obj\Debug\net5.0\Resume.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+D:\Djanuar\Source Code\Resume\Resume.Repositories\obj\Debug\net5.0\Resume.Repositories.AssemblyInfoInputs.cache
+D:\Djanuar\Source Code\Resume\Resume.Repositories\obj\Debug\net5.0\Resume.Repositories.AssemblyInfo.cs
+D:\Djanuar\Source Code\Resume\Resume.Repositories\obj\Debug\net5.0\Resume.Repositories.csproj.CoreCompileInputs.cache
+D:\Djanuar\Source Code\Resume\Resume.Repositories\bin\Debug\net5.0\Resume.Repositories.deps.json
+D:\Djanuar\Source Code\Resume\Resume.Repositories\bin\Debug\net5.0\Resume.Repositories.runtimeconfig.json
+D:\Djanuar\Source Code\Resume\Resume.Repositories\bin\Debug\net5.0\Resume.Repositories.runtimeconfig.dev.json
+D:\Djanuar\Source Code\Resume\Resume.Repositories\bin\Debug\net5.0\Resume.Repositories.dll
+D:\Djanuar\Source Code\Resume\Resume.Repositories\bin\Debug\net5.0\ref\Resume.Repositories.dll
+D:\Djanuar\Source Code\Resume\Resume.Repositories\bin\Debug\net5.0\Resume.Repositories.pdb
+D:\Djanuar\Source Code\Resume\Resume.Repositories\obj\Debug\net5.0\Resume.Repositories.dll
+D:\Djanuar\Source Code\Resume\Resume.Repositories\obj\Debug\net5.0\ref\Resume.Repositories.dll
+D:\Djanuar\Source Code\Resume\Resume.Repositories\obj\Debug\net5.0\Resume.Repositories.pdb
+D:\Djanuar\Source Code\Resume\Resume.Repositories\obj\Debug\net5.0\Resume.Repositories.genruntimeconfig.cache

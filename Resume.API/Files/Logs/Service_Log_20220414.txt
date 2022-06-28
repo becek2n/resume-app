@@ -1,0 +1,93 @@
+2022-04-14 07:43:52.657 +07:00 [INF] Starting web host
+2022-04-14 07:43:58.550 +07:00 [FTL] Host terminated unexpectedly
+System.AggregateException: Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: Resume.DAO.Interface.IProfile Lifetime: Scoped ImplementationType: Resume.DAO.ProfileDAO': Unable to resolve service for type 'AutoMapper.IMapper' while attempting to activate 'Resume.DAO.ProfileDAO'.)
+ ---> System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: Resume.DAO.Interface.IProfile Lifetime: Scoped ImplementationType: Resume.DAO.ProfileDAO': Unable to resolve service for type 'AutoMapper.IMapper' while attempting to activate 'Resume.DAO.ProfileDAO'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'AutoMapper.IMapper' while attempting to activate 'Resume.DAO.ProfileDAO'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, IServiceProviderEngine engine, ServiceProviderOptions options)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, IServiceProviderEngine engine, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.DefaultServiceProviderFactory.CreateServiceProvider(IServiceCollection containerBuilder)
+   at Microsoft.Extensions.Hosting.Internal.ServiceFactoryAdapter`1.CreateServiceProvider(Object containerBuilder)
+   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at Resume.API.Program.Main(String[] args) in D:\Djanuar\Source Code\Resume\Resume.API\Program.cs:line 33
+2022-04-14 07:45:42.313 +07:00 [INF] Starting web host
+2022-04-14 07:45:44.545 +07:00 [FTL] Host terminated unexpectedly
+System.AggregateException: Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: Resume.DAO.Interface.IProfile Lifetime: Scoped ImplementationType: Resume.DAO.ProfileDAO': Unable to resolve service for type 'AutoMapper.IMapper' while attempting to activate 'Resume.DAO.ProfileDAO'.)
+ ---> System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: Resume.DAO.Interface.IProfile Lifetime: Scoped ImplementationType: Resume.DAO.ProfileDAO': Unable to resolve service for type 'AutoMapper.IMapper' while attempting to activate 'Resume.DAO.ProfileDAO'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'AutoMapper.IMapper' while attempting to activate 'Resume.DAO.ProfileDAO'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, IServiceProviderEngine engine, ServiceProviderOptions options)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, IServiceProviderEngine engine, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.DefaultServiceProviderFactory.CreateServiceProvider(IServiceCollection containerBuilder)
+   at Microsoft.Extensions.Hosting.Internal.ServiceFactoryAdapter`1.CreateServiceProvider(Object containerBuilder)
+   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at Resume.API.Program.Main(String[] args) in D:\Djanuar\Source Code\Resume\Resume.API\Program.cs:line 33
+2022-04-14 07:48:53.274 +07:00 [INF] Starting web host
+2022-04-14 07:48:55.961 +07:00 [INF] Startup Configure is starting
+2022-04-14 07:48:57.042 +07:00 [INF] Now listening on: https://localhost:5001
+2022-04-14 07:48:57.045 +07:00 [INF] Now listening on: http://localhost:5000
+2022-04-14 07:48:57.046 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-14 07:48:57.047 +07:00 [INF] Hosting environment: Development
+2022-04-14 07:48:57.048 +07:00 [INF] Content root path: D:\Djanuar\Source Code\Resume\Resume.API
+2022-04-14 07:48:59.445 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger - -
+2022-04-14 07:48:59.624 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/swagger - - - 301 0 - 210.4412ms
+2022-04-14 07:48:59.669 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/index.html - -
+2022-04-14 07:48:59.790 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 120.7168ms
+2022-04-14 07:48:59.841 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/swagger-ui-bundle.js - -
+2022-04-14 07:48:59.845 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/swagger-ui.css - -
+2022-04-14 07:48:59.885 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js - -
+2022-04-14 07:49:00.001 +07:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2022-04-14 07:49:00.001 +07:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2022-04-14 07:49:00.054 +07:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2022-04-14 07:49:00.054 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/swagger/swagger-ui.css - - - 200 142933 text/css 209.3340ms
+2022-04-14 07:49:00.056 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js - - - 200 311804 application/javascript 171.1219ms
+2022-04-14 07:49:00.057 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/swagger/swagger-ui-bundle.js - - - 200 986342 application/javascript 215.6635ms
+2022-04-14 07:49:01.007 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/v1/swagger.json - -
+2022-04-14 07:49:01.068 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/favicon-32x32.png - -
+2022-04-14 07:49:01.070 +07:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2022-04-14 07:49:01.072 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/swagger/favicon-32x32.png - - - 200 628 image/png 3.5699ms
+2022-04-14 07:49:01.122 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 114.7373ms
+2022-04-14 07:53:06.237 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Profile?userId=0f8fad5b-d9cb-469f-a165-70867728950e - -
+2022-04-14 07:53:06.369 +07:00 [INF] Executing endpoint 'Resume.API.Controllers.ProfileController.Get (Resume.API)'
+2022-04-14 07:53:06.445 +07:00 [INF] Route matched with {action = "Get", controller = "Profile"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Get(System.Guid) on controller Resume.API.Controllers.ProfileController (Resume.API).
+2022-04-14 07:53:06.903 +07:00 [INF] Request is process...
+2022-04-14 07:53:07.992 +07:00 [INF] Entity Framework Core 5.0.15 initialized 'ResumeContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL' with options: MigrationsAssembly=Resume.API 
+2022-04-14 07:53:08.255 +07:00 [WRN] Compiling a query which loads related collections for more than one collection navigation either via 'Include' or through projection but no 'QuerySplittingBehavior' has been configured. By default Entity Framework will use 'QuerySplittingBehavior.SingleQuery' which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'
+2022-04-14 07:53:09.338 +07:00 [INF] Executed DbCommand (154ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT t."Id", t."Address", t."CityId", t."CountryId", t."CreatedBy", t."DOB", t."DOBPlace", t."DateCreated", t."DateModified", t."Description", t."Hobbies", t."JobTitle", t."ModifiedBy", t."NationalityId", t."Phone", t."Photo", t."PostalCode", t."UserId", e."Id", e."Address", e."Company", e."CreatedBy", e."DateCreated", e."DateModified", e."Description", e."EndDate", e."GroupTypeId", e."ModifiedBy", e."Phone", e."ProfileId", e."StartDate", e."Title", e0."Id", e0."CreatedBy", e0."DateCreated", e0."DateModified", e0."Degree", e0."Description", e0."EndDate", e0."GroupTypeId", e0."ModifiedBy", e0."ProfileId", e0."School", e0."StartDate", c."Id", c."CreatedBy", c."DateCreated", c."DateModified", c."Description", c."EndDate", c."Institution", c."IsCertified", c."ModifiedBy", c."ProfileId", c."StartDate", c."Title", s."Id", s."AccountName", s."CreatedBy", s."DateCreated", s."DateModified", s."GroupTypeId", s."ModifiedBy", s."ProfileId", s."Url", s0."Id", s0."CreatedBy", s0."DateCreated", s0."DateModified", s0."GroupTypeId", s0."ModifiedBy", s0."ProfileId", s0."SkillId", s0."SklillId", l."Id", l."CreatedBy", l."DateCreated", l."DateModified", l."ModifiedBy", l."Number", l."ProfileId", l."Title", l0."Id", l0."CreatedBy", l0."DateCreated", l0."DateModified", l0."GroupTypeId", l0."GroupTypeId1", l0."ModifiedBy", l0."ProfileId", l0."Title"
+FROM (
+    SELECT p."Id", p."Address", p."CityId", p."CountryId", p."CreatedBy", p."DOB", p."DOBPlace", p."DateCreated", p."DateModified", p."Description", p."Hobbies", p."JobTitle", p."ModifiedBy", p."NationalityId", p."Phone", p."Photo", p."PostalCode", p."UserId"
+    FROM "Profiles" AS p
+    WHERE p."UserId" = @__userId_0
+    LIMIT 2
+) AS t
+LEFT JOIN "Employments" AS e ON t."Id" = e."ProfileId"
+LEFT JOIN "Educations" AS e0 ON t."Id" = e0."ProfileId"
+LEFT JOIN "Courses" AS c ON t."Id" = c."ProfileId"
+LEFT JOIN "Socials" AS s ON t."Id" = s."ProfileId"
+LEFT JOIN "SkillSets" AS s0 ON t."Id" = s0."ProfileId"
+LEFT JOIN "Licences" AS l ON t."Id" = l."ProfileId"
+LEFT JOIN "Languages" AS l0 ON t."Id" = l0."ProfileId"
+ORDER BY t."Id", e."Id", e0."Id", c."Id", s."Id", s0."Id", l."Id", l0."Id"
+2022-04-14 07:53:09.367 +07:00 [INF] Executing OkObjectResult, writing value of type 'Resume.DAO.ResultModel`1[[Resume.Repositories.Models.Profiles, Resume.Repositories, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-04-14 07:53:09.403 +07:00 [INF] Executed action Resume.API.Controllers.ProfileController.Get (Resume.API) in 2949.7231ms
+2022-04-14 07:53:09.405 +07:00 [INF] Executed endpoint 'Resume.API.Controllers.ProfileController.Get (Resume.API)'
+2022-04-14 07:53:09.413 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/Profile?userId=0f8fad5b-d9cb-469f-a165-70867728950e - - - 200 - application/json;+charset=utf-8 3179.8749ms
