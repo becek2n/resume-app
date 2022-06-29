@@ -2,3 +2,9 @@
 /Resume.API/bin
 /Resume.API/obj
 /Resume.API/Properties
+/Resume.DAO/bin
+/Resume.DAO/obj
+/Resume.DTO/bin
+/Resume.DTO/obj
+/Resume.Repositories/bin
+/Resume.Repositories/obj
