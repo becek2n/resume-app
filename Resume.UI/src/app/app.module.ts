@@ -16,6 +16,7 @@ import { FooterComponent } from './shared/footer/footer.component';
 import { HomeModule } from './home/home.module';
 import { LoginComponent } from './login/login.component';
 import { DashboardResumesComponent } from './dashboard/resumes/resumes.component';
+import { ResumeModule } from './dashboard/resumes/resume.module';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,9 @@ import { DashboardResumesComponent } from './dashboard/resumes/resumes.component
     NavbarComponent,
     FooterComponent,
     LoginComponent,
-    DashboardResumesComponent
+
+    //resume dashboard
+    // DashboardResumesComponent,
   ],
   imports: [
     BrowserModule,
@@ -34,7 +37,9 @@ import { DashboardResumesComponent } from './dashboard/resumes/resumes.component
     FormsModule,
     RouterModule,
     AppRoutingModule,
-    HomeModule
+    HomeModule,
+
+    ResumeModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
